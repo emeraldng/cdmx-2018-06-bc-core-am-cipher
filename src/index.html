@@ -9,5 +9,32 @@
     <div id="root"></div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
+
+    <center><h1>CIFRADO CESAR</h1></center>
+<!-- Caja para pedir los datos de encriptamiento -->
+<form name= "encriptar">
+<!-- Introducciendo el mensaje -->
+Introduce tu Mensaje <input id="txt1" type="text" name="Introduce
+tu texto" placeholder="Escribe el Mensaje" /><br />
+<!-- Introducciendo el texto -->
+Password <input id="psw1" type="number" name="Introduce tu
+password" placeholder="Introduce el nº de rotaciones" /><br />
+<input type="submit" value="encriptar" onclick="encriptar()" />
+<!--Espacio para imprimir el resultado -->
+<h2 id="aaa"></h2>
+<h2 id="bbb"></h2>
+<h3 id="cajilla"></h3>
+</form>
+<br><br><br>
+<input type="button" value="ver" onclick="sss()">
+<!--Caja para pedir los datos para desencriptar -->
+<form name= "desencriptar">
+Introduce tu Mensaje <input type="text" name="Introduce tu texto"
+id="txt2" placeholder="Escribe el Mensaje" /><br />
+Password <input type="number" name="Introduce tu password"
+id="psw2" placeholder="Introduce el nº de rotaciones" /><br />
+<input type="submit" value="desencriptar"
+onclick="desencriptar()" />
+</form>
   </body>
 </html>
