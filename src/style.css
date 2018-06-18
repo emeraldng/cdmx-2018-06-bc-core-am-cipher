@@ -1,7 +1,110 @@
 body {
-    color: white;
-    background-image:  url('https://78.media.tumblr.com/90d14bc3c54a3daabd04bc8e61cc295a/tumblr_inline_n258ovpRe81qhwjx8.gif')
+    color:rgb(229, 245, 7);
+    text-shadow: 4px 4px 4px rgb(240, 8, 143);
+    background-image:  url('https://s1.favim.com/orig/150927/background-bae-beautiful-food-Favim.com-3363070.gif')
   }
-#titulo {
+ #titulos {
     font-family:Arial, Helvetica, sans-serif;
-}  
+    text-align: center;
+ }
+
+ #box1 {
+  text-align: center;
+  color: rgb(229, 245, 7);
+  font-weight: bold;
+  font-size: 45px;
+  text-shadow: 4px 4px 4px rgb(240, 8, 143);
+    }
+ #encodeBox {
+        text-align: center;
+        color: #F072A9;
+        font-weight: bold;
+        font-size: 35px;
+        text-shadow: 1px 1px 1px #fff;
+          }
+
+          #box2 {
+            text-align: center;
+            color: rgb(229, 245, 7);
+            font-weight: bold;
+            font-size: 45px;
+            text-shadow: 4px 4px 4px rgb(240, 8, 143);
+            
+              }
+           #decodeBox {
+                  text-align: center;
+                  color: #F072A9;
+                  font-weight: bold;
+                  font-size: 35px;
+                  text-shadow: 1px 1px 1px #fff;
+                    }
+
+                    #botonocultar {
+                        background-color: rgb(209, 94, 161); 
+                        border: none;
+                        color: white;
+                        padding: 15px 30px;
+                        text-align: center;
+                        text-decoration: none;
+                        display: inline-block;
+                        font-size: 15px;
+                    }
+
+                    #botonoffset {
+                        background-color: rgb(209, 94, 161); 
+                        border: none;
+                        color: white;
+                        padding: 7px 15px;
+                        text-align: center;
+                        text-decoration: none;
+                        display: inline-block;
+                        font-size: 13px;
+                    }
+
+                    ::placeholder {
+                        color: black;
+                    }
+
+                    
+                        #botondescubrir {
+                        background-color: rgb(209, 94, 161); 
+                        border: none;
+                        color: white;
+                        padding: 15px 30px;
+                        text-align: center;
+                        text-decoration: none;
+                        display: inline-block;
+                        font-size: 15px;
+                    }
+
+                    #botonoffset2 {
+                        background-color: rgb(209, 94, 161); 
+                        border: none;
+                        color: white;
+                        padding: 7px 15px;
+                        text-align: center;
+                        text-decoration: none;
+                        display: inline-block;
+                        font-size: 13px;
+                    }
+                    #box3 {
+                        text-align: center;
+                      color: rgb(229, 245, 7);
+                      font-weight: bold;
+                     font-size: 45px;
+                       text-shadow: 4px 4px 4px rgb(240, 8, 143);
+                     }
+                          
+                     #aaa {
+                        text-align: center;
+                    }
+                     
+                     #sss {
+                         text-align: center;
+                     }
+
+
+            
+ 
+
+ 
