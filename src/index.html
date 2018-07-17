@@ -1,57 +1,46 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
 
-    <div id= titulos>
-      <h1>CEASAR CIPHER</h1>
-      <em><h3>Hide your secrets . . .</h3></em>
-    </div>
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-    
-
-    <div id= box1>
-      <label>CIFRAR</label>
-      <br> 
-    </div>
-    
-    <div id="encodeBox"><form> <textarea id="encodeBox" placeholder="Texto a ocultar"></textarea></form>
-      </div>
-
-      <div id=aaa>
-          <input id="botonoffset" type="number" min="1"  placeholder="Posiciones a rotar">
-          <input id="botonocultar" type="submit" value="OCULTA">
-      </div>
-
-    <br><br><br><br>
-    <div id= box2>
-        <label>DESCIFRAR</label>
-        <br> 
-      </div>
-      
-      <div id="decodeBox"><textarea id="decodeBox" placeholder="Texto a descubrir"></textarea>
-        </div>
-       <br>
-       <div id=sss>
-          <input id="botonoffset2" type="number" min="1"  placeholder="Posiciones a rotar">
-          <input id="botondescubrir" type="submit" onclick="decode()" value="DESCUBRE">
-          
-       </div>
-      <div id="box3">
-      <textarea placeholder="El mensaje secreto es. . ."></textarea>
-      </div>
-
-      
-
-
-
+<body>
   
-   </body>
+  <div class="bxs">
+    <h1 class="titulos">OCULTA TU MENSAJE!</h1>
+    <textarea style="text-transform: uppercase;" type="text" id="textBox1" rows="10" cols="30" placeholder="Escribe tu msg "></textarea>
+    <br>
+    <div>
+    <button type="button" id="buttonEn" name="button"> CIFRAR </button>
+    </div>
+    <br>
+    <div>
+      <textarea id="encodetxt"> Tu mensaje cifrado es... </textarea>
+    </div>
+    
+  </div>
+
+  <div> <input type="number" id="pass1" placeholder="Key"min="1" max="33" />
+  </div> 
+
+  <div class="bxs">
+    <h1 class="titulos">DESCUBRE TU MENSAJE!</h1>
+    <textarea style="text-transform: uppercase;" type="text" id="textBox2" rows="10" cols="30" placeholder=" Decode your text "></textarea>
+    <br>
+    <div>
+    <button type="button" id="buttonDe" name="button">DESCIFRAR</button>
+    </div>
+    <br>
+    <div>
+    <textarea id="decodetxt"> Tu mensaje descifrado es... </textarea>
+    </div>
+  </div>
+
+  <script src="cipher.js"></script>   
+  <script src="index.js"></script>  
+</body>
+
 </html>

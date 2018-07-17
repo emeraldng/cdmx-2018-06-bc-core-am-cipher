@@ -1,13 +1,20 @@
-//const botonocultar = document.getElementById("botonocultar");
-const botondescubrir = document.getElementById("botondescubrir");
+const button1 = document.getElementById("buttonEn");
+const button2 = document.getElementById("buttonDe");
+//let string = document.getElementById("textBox1").value;
+//let offset = parseInt(document.getElementById("pass1").value);
 
-botonocultar.addEventListener("click", event => {
-  let userText = document.getElementById("encodeBox").value;
-  let results = cipher.encode(encodeBox);
-  document.getElementById("encodeBox").innerHTML = results;
+buttonEn.addEventListener("click", event => {
+  let string = document.getElementById("textBox1").value;
+  let offset = parseInt(document.getElementById("pass1").value);
+  let result2Encode = cipher.encode(offset, strFromUser);
+  document.getElementById("encodetxt").innerHTML = result2Encode;
 });
-botondescubrir.addEventListener("click", event => {
-  let userOut = document.getElementById("decodeBox").value;
-  let results2 = cipher.decode(decodeBox);
-  document.getElementById("decodeBox").innerHTML = results2;
+button2.addEventListener("click", event => {
+  let string = document.getElementById("textBox2").value;
+  let offset = parseInt(document.getElementById("pass1").value);
+  let result2Decode = cipher.decode(offset, strFromUser2);
+  document.getElementById("decodetxt").innerHTML = result2Decode;
+  
 });
+
+
