@@ -1,4 +1,4 @@
-const botonocultar = document.getElementById("botonocultar");
+//const botonocultar = document.getElementById("botonocultar");
 const botondescubrir = document.getElementById("botondescubrir");
 
 botonocultar.addEventListener("click", event => {
