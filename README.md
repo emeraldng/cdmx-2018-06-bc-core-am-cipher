@@ -18,3 +18,9 @@ leer.
 En caso contrario al recibir un mensaje encriptado solo debe ingresarlo en la caja correspondiente, seleccionar el password y dar clik en descubir.
 El proceso es muy sencillo, y solo deben de acceder a la webpage a traves de su navegador móvil para poder usarla.
 No requiere instación previa, ni registro como usuario.
+
+DOCUMENTACION
+Cipher.JS <https://repl.it/@AneMartell/codigoFinal>
+array.map <http://adripofjavascript.com/blog/drips/transforming-arrays-with-array-map.html>
+array.apply <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply>
+String From Char Code <https://www.geeksforgeeks.org/javascript-string-fromcharcode/>
