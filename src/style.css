@@ -8,6 +8,16 @@ body {
     text-align: center;
  }
 
+
+ #pass1 {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  display: inline-block;
+  background-color:  rgb(229, 245, 7);
+  font-size: 24px;
+ }
+
  .bxs {
   text-align: center;
   color: rgb(229, 245, 7);
@@ -25,7 +35,7 @@ body {
 
           #textBox2 {
             text-align: center;
-            color: rgb(229, 245, 7);
+            color:rgb(12, 12, 12);
             font-weight: bold;
             font-size: 20px;
             text-shadow: 4px 4px 4px rgb(240, 8, 143);
@@ -45,7 +55,7 @@ body {
 
                     #decodetxt {
                         text-align: center;
-                      color: rgb(229, 245, 7);
+                      color: black;
                       font-weight: bold;
                      font-size: 20px;
                        text-shadow: 4px 4px 4px rgb(240, 8, 143);

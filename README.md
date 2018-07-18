@@ -21,6 +21,9 @@ No requiere instación previa, ni registro como usuario.
 
 DOCUMENTACION
 Cipher.JS <https://repl.it/@AneMartell/codigoFinal>
+
 array.map <http://adripofjavascript.com/blog/drips/transforming-arrays-with-array-map.html>
+
 array.apply <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply>
+
 String From Char Code <https://www.geeksforgeeks.org/javascript-string-fromcharcode/>
